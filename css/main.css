@@ -8,9 +8,6 @@ body {
 	min-width: 1200px;
 	height: 500px;
 }
-.selected {
-	color: yellow;
-}
 .ryu {
 	float: left;
 }
