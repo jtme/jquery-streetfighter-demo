@@ -34,6 +34,7 @@ $(document).ready(function() {
  			$('.ryu-still').hide();
  			$('.ryu-throwing').hide();
  			$('.ryu-ready').hide();
+ 			$('.hadouken').hide();
 		}
 	}).keyup(function(event){
 		if(event.which == 88) {
@@ -41,6 +42,7 @@ $(document).ready(function() {
  			$('.ryu-throwing').hide();
  			$('.ryu-ready').hide();
  			$('.ryu-still').show();
+ 			$('.hadouken').hide();
 		}
 	});
 });
